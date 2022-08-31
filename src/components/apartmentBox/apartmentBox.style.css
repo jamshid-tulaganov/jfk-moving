@@ -1,0 +1,33 @@
+.apartment-main {
+    margin-bottom: 120px;
+}
+.apartment-heading {
+    max-width: 65%;
+    margin-bottom: 70px;
+}
+.apartment-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.apartment-header {
+    margin: 19px 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+}
+.apartment-box img {
+    display: inline-block;
+}
+.apartment-desc {
+    max-width: 54%;
+    margin: 0 auto 70px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 0;
+}

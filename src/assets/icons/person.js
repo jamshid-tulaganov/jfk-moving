@@ -1,0 +1,12 @@
+import * as React from "react"
+
+function SvgComponent(props) {
+    return (
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.16602 21.8748C4.16602 18.9984 7.89698 16.6665 12.4993 16.6665C17.1017 16.6665 20.8327 18.9984 20.8327 21.8748" stroke="#81D2D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.4993 13.5417C15.3758 13.5417 17.7077 11.2098 17.7077 8.33333C17.7077 5.45685 15.3758 3.125 12.4993 3.125C9.62287 3.125 7.29102 5.45685 7.29102 8.33333C7.29102 11.2098 9.62287 13.5417 12.4993 13.5417Z" stroke="#81D2D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    )
+}
+
+export default SvgComponent

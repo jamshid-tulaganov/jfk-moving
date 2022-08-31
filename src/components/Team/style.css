@@ -1,0 +1,74 @@
+.team--container {
+    margin-bottom: 70px;
+}
+.team-heading {
+    margin-top: 150px;
+}
+.team-info {
+    max-width: 60%;
+    margin: 0 auto 70px;
+    font-size: 16px ;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 20px 20px 0;
+    margin-bottom: 30px;
+}
+.member__info a, .member__info > div {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text);
+    border-top: 1px solid #f6f6f6 ;
+    padding: 10px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.member__info {
+    width: 100%;
+}
+
+.member__info-phone path, .member__info-email path {
+    stroke: #81D2D3;
+}
+.member__info-email svg, .member__info-phone svg , .member__info-person svg {
+    margin-right: 18px;
+}
+
+.member__img {
+    width: 100%;
+    min-height: 168px;
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.member__img img {
+    display: inline-block;
+    width: 85%;
+    height: auto;
+    border-radius: 8px;
+}
+.member__header {
+    margin: 0;
+    font-family: "InterBold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--oldBrandColor);
+}
+.member__job {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text);
+    margin: 0 0 15px 0;
+}

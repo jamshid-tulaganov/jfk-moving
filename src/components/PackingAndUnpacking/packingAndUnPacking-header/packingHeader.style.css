@@ -1,0 +1,4 @@
+.packing-header .storage-bg {
+    background:linear-gradient(180deg, rgba(68, 126, 127, 0) 0%, rgba(68, 126, 127, 0.539062) 57.93%, rgba(68, 126, 127, 0.9) 100%),
+       url("../../../assets/images/packing/bg.png");
+}

@@ -1,0 +1,76 @@
+.locationInpCon {
+  height: 65px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.1);
+  border: 0;
+  padding: 0 20px;
+  min-width: 200px;
+  width: 100%;
+  background-color: #fff;
+}
+.calendar-block {
+  height: 350px !important;
+}
+.date--header {
+  margin-top: 19px !important;
+  margin-bottom: 0 !important;
+}
+.date--desc {
+  padding-top: 0 !important;
+  margin-bottom: 2px !important;
+  line-height: 27px !important;
+}
+.loc-text {
+  color: var(--oldBrandColor);
+  text-align: left;
+  font-family: "InterMedium", sans-serif;
+  font-size: 16px;
+}
+.form-input {
+  flex: auto;
+  height: 100%;
+  border: 0;
+  outline: none;
+  font-family: "InterMedium", sans-serif;
+  padding: 0 10px;
+  color: var(--oldBrandColor);
+  line-height: 26px;
+  font-size: 16px;
+}
+.locationInpCon:focus-within {
+  outline: 1px solid #81d2d3;
+}
+
+.btn-date__margin {
+  margin-top: 12px !important;
+}
+
+.calendarContainer {
+  background-color: white;
+  border-radius: 9px;
+  width: 334px !important;
+  min-height: 300px !important;
+  max-height: 320px !important;
+  margin-top: 34px;
+  border: 1px solid var(--border);
+}
+.validation-error__msg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.validation-error__msg div {
+  font-size: 18px !important;
+}
+
+@media (max-width: 768px) {
+  .calendarContainer {
+    max-height: 330px !important;
+  }
+  .react-calendar__month-view__days {
+    max-height: 230px;
+  }
+  .react-calendar__tile {
+    max-height: 38px !important;
+  }
+}

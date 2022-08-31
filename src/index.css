@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--white) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  max-width: 1184px !important;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "InterBold", sans-serif;
+  src: local("InterBold"),
+    url("./assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "InterRegular", sans-serif;
+  src: local("InterRegular"),
+    url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "InterSemiBold", sans-serif;
+  src: local("InterSemiBold"),
+    url("./assets/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: local("InterMedium"),
+    url("./assets/fonts/Inter-Medium.ttf") format("truetype");
+}
+
+:root {
+  --oldBrandColor: #447e7f;
+  --oldBrandColorFocus: #4e9899;
+  --brandColor: #a8324a;
+  --white: #fff;
+  --black: #000;
+  --text: #4e4e4e;
+  --yellow: #fec107;
+  --pink: #f4afbd;
+  --whiteF7: #f7f7f7;
+  --apelsin: #fec107;
+  --border: #ededed;
+  --chooseBoxBg: #fcfcfc;
+  --menuOpacity: rgba(68, 126, 127, 0.8);
+  --outlineColor: #81d2d3;
+  --employConBg: #f3f5f7;
+  --BBBBBB: #bbbbbb;
+  --gray:#DDDDDD;
+  --bg-gray:#FCFCFC;
+  --bg-color: #f8f8f8;
+}
+

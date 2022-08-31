@@ -1,0 +1,213 @@
+.margin-top-20 {
+  margin-bottom: 20px;
+}
+.form-con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--brandColor);
+  border-radius: 15px;
+  padding: 40px 40px;
+  margin: 0 0 120px 0 ;
+}
+.form-con > div {
+  margin-right: 20px;
+  padding: 0;
+}
+.form-con__btn {
+  margin-right: 0 !important;
+}
+.form-con__block {
+  max-width: 200px;
+}
+.localMoving {
+  margin-bottom: 50px;
+}
+.localMoving-header {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  line-height: 55px;
+  color: var(--oldBrandColor);
+  margin-bottom: 15px;
+}
+.local--calendar {
+  min-width: 310px;
+}
+.local--calendar .react-calendar__month-view__weekdays__weekday {
+  color: var(--BBBBBB);
+}
+.local--calendar .react-calendar__tile--now:enabled:hover, .react-calendar__tile--rangeEnd,
+.react-calendar__tile--now:enabled:focus, .react-calendar__tile--rangeEnd, .react-calendar__tile--rangeStart, .react-calendar__tile--range , .react-calendar__tile--active  {
+  background: var(--brandColor) !important;
+  color: var(--white) !important;
+}
+.local--calendar .react-calendar--selectRange .react-calendar__tile--hover {
+  background: var(--brandColor) !important;
+  color: var(--white) !important;
+}
+.localMoving__description {
+  font-family: 'InterRegular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--text);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.label {
+  color: var(--white);
+  font-family: "InterMedium";
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.input {
+  min-width: 200px;
+  max-width: 290px;
+  height: 67px;
+  border-radius: 7px;
+  border: 0;
+  padding: 0 20px;
+  font-family: "InterMedium";
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.date-input {
+  position: relative;
+  width: 100%;
+}
+.cal-text {
+  font-family: "InterMedium";
+  font-size: 18px;
+  margin: 0;
+  opacity: 0.8;
+}
+.button {
+  max-width: 350px;
+  min-width: 200px;
+  width: 100%;
+  height: 67px;
+  background-color: var(--yellow);
+  border: 0;
+  font-family: "InterMedium";
+  font-size: 18px;
+  padding: 0;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.button:hover {
+  opacity: 0.7;
+  background-color: var(--yellow);
+}
+.title {
+  color: var(--oldBrandColor);
+  font-family: "InterBold";
+  font-size: 40px;
+}
+.desc {
+  color: var(--text);
+  font-family: "InterRegular";
+  margin-bottom: 40px;
+}
+.calendar {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.getText {
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--text);
+  font-family: "InterRegular";
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.label {
+  align-self: flex-start;
+}
+@media (max-width: 1300px) {
+  .form-con__block {
+    max-width: 100%;
+  }
+  .input {
+    max-width: 90%;
+  }
+  .form-con__block:nth-child(5) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1199px) {
+  .localMoving-header {
+    font-size: 32px !important;
+    line-height: normal !important;
+  }
+  .form-con__block {
+    max-width: 100%;
+  }
+  .input {
+    max-width: 100%;
+  }
+  .form-con__block:nth-child(5) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .localMoving-header {
+    font-size: 28px !important;
+    line-height: normal !important;
+  }
+  .form-con {
+    background-color: var(--brandColor);
+    border-radius: 15px;
+    padding: 40px 10px;
+  }
+  /*.calendar {*/
+  /*  left: auto;*/
+  /*}*/
+  .form-con__block {
+    max-width: 100%;
+  }
+  .form-con__block:nth-child(5) {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 565px) {
+  .localMoving-header {
+    font-size: 26px !important;
+    line-height: normal !important;
+  }
+  .form-con {
+    background-color: var(--brandColor);
+    border-radius: 0px;
+    padding: 40px 10px;
+  }
+  .input {
+    max-width: 100%;
+    max-height: 55px;
+  }
+  .form-con__block:nth-child(5) {
+    margin: 0 auto;
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-con__block:nth-child(5) > button {
+    max-height: 55px;
+  }
+  .react-calendar {
+    max-width: 310px !important;
+  }
+}

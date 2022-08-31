@@ -1,0 +1,16 @@
+img {
+  width: 10rem;
+  height: 4rem;
+  object-fit: contain;
+}
+.companiesCon {
+  margin-bottom: 130px;
+}
+.companyImage {
+  margin-top: 15px;
+  width: 90%;
+  height: 60px;
+}
+.companiesCon--bg {
+  background: #f8f8f8 !important;
+}

@@ -1,0 +1,25 @@
+.packing-service__info {
+    margin-top: -10px;
+}
+.packing-service__info h3 {
+    color: var(--oldBrandColor);
+    margin-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.packing-service__info p {
+    max-width: 445px;
+    padding-bottom: 0;
+    margin: 0;
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.packing-service .storage-service__block {
+  max-width: 1160px;
+  margin: 0 auto; 
+}

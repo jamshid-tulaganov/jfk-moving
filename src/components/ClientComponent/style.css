@@ -1,0 +1,27 @@
+.clientCon-heading {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.carousel__image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.swiper-slide {
+    height: 150px;
+}
+.carousel__image img {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+    color:#aaa !important;
+}
+.client__carousel--container {
+    margin-bottom: 70px;
+}

@@ -1,0 +1,18 @@
+.commercial {
+    background-color: var(--chooseBoxBg);
+    margin-bottom: 70px;
+    height: 560px;
+}
+.commercial-main {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 57px;
+    background-image: url("../../../assets/images/servicePage/commercial.png");
+    background-repeat: no-repeat;
+    background-size: 60% 510px;
+    background-position: right 50px;
+    height:560px ;
+}
+.commercial-main .home-main--container {
+    background: none;
+}

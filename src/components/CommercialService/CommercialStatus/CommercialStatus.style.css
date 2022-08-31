@@ -1,0 +1,22 @@
+.commercial--desc {
+  max-width: 48%;
+  margin: 0 auto 80px;
+}
+.commercial-block {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.commercial-block img {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+  aspect-ratio: auto;
+}
+.commercial-block .row {
+  display: flex;
+  align-items: center;
+}
+.commercial-block p {
+  max-width: 75%;
+}

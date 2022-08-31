@@ -1,0 +1,21 @@
+.quotCon {
+   margin-top: 10px;
+}
+.quotCon > svg {
+   margin-right: 10px;
+   margin-top: -10px;
+}
+.toolpat h5 {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 26px;
+   text-align: center;
+   color: var(--text);
+}
+.slide {
+   height: 400px;
+}
+.carousel-header {
+   margin-bottom: 50px;
+}

@@ -1,0 +1,47 @@
+.license {
+    margin-bottom: 35px;
+}
+.license-row {
+    padding: 0 110px;
+}
+
+.license .license-row > div {
+    display: flex;
+    justify-content: center;
+}
+
+.license-content {
+    max-width: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 35px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px -2px rgba(24, 39, 75, 0.03), 5px 4px 10px -2px rgba(24, 39, 75, 0.05)
+}
+
+.license-content__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.license-content__img img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.license-content__header {
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 49px;
+    color: var(--oldBrandColor);
+}
+
+.license-content__btn {
+}

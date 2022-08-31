@@ -1,0 +1,20 @@
+.residential {
+    background-color: var(--chooseBoxBg);
+    height: 606px;
+    margin-bottom: 70px;
+}
+.residential-main {
+    max-width: 1360px;
+    margin: 0 auto 0;
+    padding-bottom: 0;
+    padding-top: 103px;
+    background-image: url("../../../assets/images/residential.png");
+    background-size: 60% 556px;
+    background-repeat: no-repeat;
+    background-position: right 50px; 
+    height: 100%;
+}
+
+
+
+

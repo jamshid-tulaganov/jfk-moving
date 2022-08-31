@@ -1,0 +1,35 @@
+.storageService {
+    background-color: #F3F5F7;
+    padding: 70px 0;
+}
+.storage-service__block {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.storage-service__heading {
+    margin-bottom: 70px;
+}
+.storage-service__heading h1 {
+    text-align: center;
+}
+.storage-service__column {
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+.storage-service__column:nth-child(5) {
+    margin-bottom: 0;
+}
+.storage-service__column h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 49px;
+    color: var(--text);
+    margin: 0 0 0 0;
+}
+.storage-service__column .tips-content__column {
+    width: 91px;
+    height: 85px;
+    margin-right: 15px;
+    margin-top: 0;
+}

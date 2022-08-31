@@ -1,0 +1,37 @@
+.guide-header {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.guide-content__item {
+    margin-bottom: 80px;
+}
+.guide-content__item:nth-child(2) {
+    margin-bottom: 70px;
+}
+.guide-content__img {
+    display: flex;
+    justify-content: center;
+}
+.guide-content__img img {
+    display: inline-block;
+    width: 65%;
+    height: auto;
+}
+.guide-content__header {
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--oldBrandColor);
+}
+.guide-content__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text);
+}
+.guide-content__btn {
+    margin-top: 0;
+}

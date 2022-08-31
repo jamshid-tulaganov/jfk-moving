@@ -1,0 +1,92 @@
+.textHour {
+  line-height: 26px;
+  font-size: 22px;
+  color: var(--text);
+  font-family: "InterBold", sans-serif;
+  margin: 0 15px 0 0;
+}
+.descText--time {
+  font-family: "InterBold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--oldBrandColor);
+}
+.countText {
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 22px;
+  color: var(--oldBrandColor);
+  font-family: "InterBold", sans-serif;
+  margin: 0 0 0 15px;
+}
+.moveCon {
+  margin-top: 45px;
+}
+.plus_minus {
+  cursor: pointer;
+}
+.confirm-data {
+  width: 410px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.confirm-data__column:last-child {
+ margin-left: auto;
+}
+
+.result-info {
+  font-family: "InterRegular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--brandColor);
+}
+
+.headTxt--confirm {
+  margin-top: 71.5px !important;
+}
+
+@media (max-width: 575px) {
+  .headTxt--confirm {
+    font-size: 24px;
+  }
+  .resultCard {
+    width: 270px;
+  }
+  .confirm-data {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .confirm-data svg {
+    width: 30px;
+    height: 38px;
+  }
+  .textHour, .countText {
+    font-size: 18px;
+  }
+  .headTxtCal {
+    font-size: 32px;
+  }
+  .result-info {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .headTxt--confirm {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .descText--time {
+    font-size: 30px;
+  }
+
+}

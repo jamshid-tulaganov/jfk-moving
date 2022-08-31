@@ -1,0 +1,12 @@
+.success-img {
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+.sub-title {
+  color: var(--oldBrandColor);
+  font-family: "InterSemiBold";
+  font-size: 1.3rem;
+  margin-top: 10px;
+}

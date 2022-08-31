@@ -1,0 +1,61 @@
+.storage-bg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 444px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    background:linear-gradient(180deg, rgba(68, 126, 127, 0) 0%, rgba(68, 126, 127, 0.479167) 57.93%, rgba(68, 126, 127, 0.8) 100%),
+    url('../../../assets/images/storage/bg-image.png');
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.storage-bg::before {
+    content: "";
+    background-color: rgba(68, 126, 127,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1000;
+    mix-blend-mode: multiply;
+}
+.storage-bg__header, .storage-bg__txt {
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+}
+.storage-bg__header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 15px;
+}
+.storage-bg__txt {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.storage-info {
+    max-width: 874px;
+    margin: 0 auto 70px ;
+}
+.storage-info__header {
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: center;
+    color: var(--oldBrandColor);
+}
+.storage-info__txt {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: var(--text);
+}

@@ -1,0 +1,59 @@
+.shop-card {
+    width: 500px;
+    height: 204px;
+    display: flex;
+    padding: 15px;
+    background: #F3F5F7;
+    border-radius: 25px;
+    margin-bottom:25px;
+}
+.shop-card__image {
+    width: 168px;
+    height: 174px;
+    margin-right: 15px;
+    background: #E6E7EA;
+    border: 0.7px solid #DDDDDD;
+    border-radius: 25px;
+}
+.shop-card__image img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.shop-card__header {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+.shop-card__txt {
+    max-width: 281px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+    padding-bottom: 0;
+    color: var(--text);
+}
+.shop-card__price {
+    display: flex;
+}
+.shop-card__price p:nth-child(1) {
+    margin-right: 20px;
+}
+.shop-card__price p {
+    font-family: 'Inter', sans-serif    ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text);
+    padding-bottom: 0;
+}
+.shop-card__price span {
+    display: inline-block;
+    color: var(--brandColor);
+    font-weight: 700;
+}

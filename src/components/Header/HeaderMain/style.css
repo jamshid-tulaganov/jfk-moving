@@ -1,0 +1,234 @@
+.header-main {
+  background: var(--bg-color);
+  min-height: 571px;
+  margin-bottom: 70px;
+}
+.header_main {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: url("../../../assets/images/landing.png") no-repeat center
+    center/cover;
+  background-size: 1070px 414px;
+  background-position: right 87px;
+  padding-top: 70px;  
+  min-height: 571px;
+}
+.landing-header {
+  margin-bottom: 15px;
+}
+.landing-header .h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.h1 {
+  color: var(--brandColor);
+  line-height: 61px;
+  font-size: 50px;
+  font-family: "InterBold", sans-serif;
+  text-align: start;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.h2 {
+  line-height: 60px;
+  font-size: 50px;
+  color: var(--text);
+  font-family: "InterRegular", sans-serif;
+  letter-spacing: 0;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+p.header_desc {
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--text);
+  font-family: "InterRegular", sans-serif;
+  text-align: start;
+  max-width: 440px;
+  margin: 0 0 34px 0;
+}
+.book_button {
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--brandColor);
+  border: 0 solid var(--white);
+  color: var(--white);
+  line-height: 25px;
+  font-size: 22px;
+  font-family: "InterMedium", sans-serif;
+}
+.book_button:hover {
+  background-color: white;
+  border: 1px solid var(--brandColor);
+  color: var(--brandColor);
+}
+
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  p.header_desc {
+    line-height: 23px;
+    font-size: 16px;
+    color: var(--text);
+    font-family: "InterRegular";
+    text-align: start;
+    max-width: 395px;
+    margin: 0 0 20px 0;
+  }
+}
+@media (max-width: 991px) {
+  .header_main {
+    background: url("../../../assets/images/landing.png") no-repeat center
+      center/cover;
+    background-size: 77% 70%;
+    background-position: right center;
+    min-height: 450px;
+    padding-top: 40px;
+    margin-top: 80px;
+  }
+  .header_main > row {
+    background-color: #eee;
+  }
+  .h1 {
+    color: var(--brandColor);
+    line-height: 35px;
+    font-size: 35px;
+    font-family: "InterBold";
+  }
+
+  .h2 {
+    display: inline;
+    line-height: 35px;
+    font-size: 35px;
+    color: var(--text);
+    font-family: "InterRegular";
+    letter-spacing: 0px;
+    text-align: start;
+  }
+  p.header_desc {
+    line-height: 23px;
+    font-size: 16px;
+    color: var(--text);
+    font-family: "InterRegular";
+    text-align: start;
+    max-width: 260px;
+    margin: 0 0 10px 0;
+  }
+}
+
+/*landing -header*/
+.landing-header {
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
+}
+.txt--change__color {
+  color:var(--oldBrandColor) !important;
+}
+
+@media (max-width: 767px) {
+  .home-main--container {
+    margin-top: 130px !important;
+  }
+
+  .header_main {
+    background: none;
+    padding-top: 50px;
+  }
+  .header_desc, .landing-header, .landing-header-txt {
+    width: 100%;
+    text-align: center;
+  }
+  .book_button {
+    width: 300px;
+    height: 50px;
+    margin: 0px 0px;
+  }
+  .mainImage {
+    display: block;
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .navlink_move {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 50px;
+    max-width: 200px;
+    min-width: 150px;
+    text-decoration: none;
+  }
+  .navlink_move button {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px
+  }
+
+  .h1 {
+    color: var(--brandColor);
+    line-height: 50px;
+    font-size: 40px;
+    font-family: "InterBold";
+    margin-bottom: 0;
+  }
+
+  .h2 {
+    display: inline;
+    line-height: 40px;
+    font-size: 40px;
+    color: var(--text);
+    font-family: "InterRegular";
+    letter-spacing: 0;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  p.header_desc {
+    width: 100%;
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    color: var(--text);
+    font-family: "InterRegular";
+    max-width: 465px;
+    margin: 10px auto 20px;
+  }
+}
+@media (max-width: 450px) {
+  .mainImage {
+    display: block;
+    width: 100%;
+    max-height: 120px;
+    margin-bottom: 50px;
+  }
+  .header_desc, .landing-header, .landing-header-txt {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  p.header_desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+}
+@media (min-width: 768px) {
+  .mainImage {
+    display: none;
+  }
+  .landing-header {
+    text-align:left;
+    margin-right: auto;
+  }
+}

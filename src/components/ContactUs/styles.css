@@ -1,0 +1,86 @@
+.contactUs {
+  margin-bottom: 130px;
+}
+.contactUs-heading {
+  margin-bottom: 20px;
+}
+.contactUs-heading .getText {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.title {
+  font-size: 40px;
+  color: var(--oldBrandColor);
+  font-family: "InterBold";
+  margin-top: 90px 0;
+  font-weight: 700;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "InterRegular", sans-serif;
+  color: var(--text);
+}
+.buttons {
+  flex-direction: row;
+}
+.book,
+.number {
+  width: 230px;
+  height: 50px;
+  background-color: var(--brandColor);
+  border-radius: 30px;
+  border: 0;
+  color: var(--white);
+  font-family: "InterMedium";
+  font-size: 20px;
+  margin-top: 20px;
+}
+.book:hover {
+  background-color: transparent;
+  border: 2px solid var(--brandColor);
+  color: var(--brandColor);
+}
+.number {
+  background-color: transparent;
+  border: 2px solid var(--brandColor);
+  color: var(--brandColor);
+}
+.number__link {
+  text-decoration: none;
+  color: var(--brandColor);
+}
+.number:hover {
+  background-color: var(--brandColor);
+  color: var(--white);
+}
+.number:hover .number__link {
+  color:var(--white);
+}
+.contact-con {
+  margin: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .book,
+  .number {
+    width: 280px;
+    height: 50px;
+  }
+  .button {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .contacts-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacts-btn button {
+    max-width: 250px;
+  }
+
+}

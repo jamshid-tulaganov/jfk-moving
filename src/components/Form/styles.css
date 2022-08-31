@@ -1,0 +1,150 @@
+.margin-top-20 {
+  margin-bottom: 20px;
+}
+
+.form-heading {
+  margin-bottom: 50px;
+}
+.form--titleText {
+  margin-bottom: 15px;
+}
+.form-con {
+  background-color: var(--brandColor);
+  border-radius: 15px;
+  padding: 40px 40px;
+  margin-bottom: 120px;
+}
+.form--margin {
+  margin-bottom: 70px !important;
+}
+.form-desc {
+  margin-bottom: 30px !important;
+}
+.label {
+  color: var(--white);
+  font-family: "InterMedium", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.input {
+  width: 100%;
+  height: 67px;
+  border-radius: 7px;
+  border: 0;
+  padding: 0 20px;
+  font-family: "InterMedium", sans-serif;
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.formComponent--input {
+  max-width: 350px !important;
+  color:var(--oldBrandColor);
+  font-weight: 500;
+}
+.form-block {
+  margin-right: 0px !important;
+}
+.input::placeholder {
+  line-height: 26px;
+  font-size: 18px;
+  font-family: "InterMedium";
+  color: var(--BBBBBB);
+}
+.date-input {
+  position: relative;
+  width: 100%;
+}
+.form-calendar {
+  z-index: 10000;
+}
+.formComponent--input__calendar {
+  max-height: 100%;
+}
+.locationInpCon--form {
+  max-width: 350px;
+}
+.cal-text {
+  font-family: "InterMedium";
+  font-size: 18px;
+  margin: 0;
+  opacity: 0.8;
+}
+.input::placeholder {
+  line-height: 26px;
+  font-size: 18px;
+  font-family: "InterMedium";
+  color: var(--BBBBBB);
+}
+.button {
+  max-width: 350px;
+  min-width: 200px;
+  width: 100%;
+  height: 50px;
+  background-color: var(--yellow);
+  border: 0;
+  font-family: "InterMedium";
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 15px !important;
+}
+.button:hover {
+  opacity: 0.7;
+  background-color: var(--yellow);
+}
+.title {
+  color: var(--oldBrandColor);
+  font-family: "InterBold";
+  font-size: 40px;
+}
+.desc {
+  margin: 0;
+  color: var(--text);
+  font-family: "InterRegular";
+}
+.calendar {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.form-calendar {
+  top: 115%;
+}
+
+
+.getText {
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--text);
+  font-family: "InterRegular";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.label {
+  align-self: flex-start;
+}
+@media (max-width: 767px) {
+  .form-con {
+    background-color: var(--brandColor);
+    border-radius: 15px;
+    padding: 40px 10px;
+  }
+  .calendar {
+    left: auto;
+  }
+  button {
+    height: 55px !important;
+  }
+}
+@media (max-width: 565px) {
+  .form-con {
+    background-color: var(--brandColor);
+    border-radius: 0px;
+    padding: 40px 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.packing-shop__header {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.packing-shop__header .headTxt {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.packing-shop__navigate {
+    max-width: 826px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.shop__btn {
+    width: 253px;
+    height: 67px;
+    border: 2px solid var(--brandColor);
+    background: none;
+    color: var(--oldBrandColor);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    outline:none;
+}
+.active-shop__btn {
+    background: var(--brandColor);
+    color: var(--white);
+}

@@ -1,0 +1,29 @@
+.buttonContinue {
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: var(--brandColor);
+  border-width: 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: var(--white);
+  margin-top: 35px;
+}
+.buttonContinue:active {
+  border: 1px solid var(--brandColor);
+  background-color: var(--white);
+  color: var(--brandColor);
+}
+.buttonExit {
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: var(--white);
+  border-width: 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: var(--brandColor);
+}
+.buttonExit:active {
+  border: 1px solid var(--brandColor);
+}

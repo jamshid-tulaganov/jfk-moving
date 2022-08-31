@@ -1,0 +1,110 @@
+.movingBoxes {
+    padding: 0;
+}
+.movingBox-header {
+    margin-bottom: 50px;
+}
+.movingBox-heading {
+    color: var(--oldBrandColor);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.movingBox-txt {
+    color:var(--text);
+    max-width: 63%;
+    margin: 0 auto;
+}
+.MovingBox__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.movingBox__img {
+    display: inline-block;
+    width: 38%;
+    height: auto;
+}
+.box--img__1 {
+    margin-bottom: 8px;
+}
+.img--res {
+    margin-bottom: 16px;
+}
+.commercial--res {
+    margin-bottom: -2px;
+}
+.long--img {
+    margin-bottom: 2px;
+}
+.movingBox__heading {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: center;
+    color: var(--text);
+}
+.header--local {
+    line-height: 16px !important;
+    margin-bottom: 20px;
+}
+
+.MovingBox__txt {
+    max-width: 84%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+.commercial--txt {
+    max-width: 65% !important;
+}
+.res--txt {
+    max-width: 60% !important;
+}
+.MovingBox__btn {
+    width: 120px;
+    height: 37px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: var(--oldBrandColor);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.MovingBox__btn:hover {
+    border: 2px solid var(--oldBrandColor) ;
+    color: var(--oldBrandColor);
+    background-color: var(--white);
+}
+.movingBox--margin {
+    margin-bottom: 70px !important;
+}
+.bg--change {
+    background-color: #f8f8f8;
+}
+.bg--change2 {
+    background-color: #FCFCFC !important;
+}
+.top--header {
+    margin-bottom: 50px;
+}
+.box--bottom {
+    padding-bottom: 70px;
+}
+.truck--image {
+    width: 430px;
+    height: 420px;
+    bottom: -50px;
+    margin-right: 100px;
+}
+.letMoving {
+    margin-bottom: 90px;
+}

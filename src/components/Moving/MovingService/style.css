@@ -1,0 +1,25 @@
+.margin--service {
+    margin-bottom: 126px;
+}
+.packing--img {
+    display: inline-block;
+    width: 101px;
+    height: 111px;
+}
+.storage--img {
+    width: 139px;
+    height: 95px;
+    margin-bottom: 13px;
+}
+.supply--img {
+    width: 146px;
+    height: 88px;
+    margin-bottom: 20px;
+}
+.piano--img {
+    width: 95px;
+    height: 110px;
+}
+.packing--margin {
+    margin-bottom: -2px;
+}

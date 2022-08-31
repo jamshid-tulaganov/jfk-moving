@@ -1,0 +1,9 @@
+.boxes--container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.shop-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}

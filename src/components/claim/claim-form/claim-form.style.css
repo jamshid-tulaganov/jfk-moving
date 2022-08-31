@@ -1,0 +1,135 @@
+.modal-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.modal-form__body {
+    /*padding: 15px 20px;*/
+}
+.claims-form__radio {
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.claims-form__radio2 {
+    padding: 30px 0;
+}
+.radio__header {
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--oldBrandColor);
+}
+.radio--valuation {
+    margin-right: 100px;
+}
+.form--radio__btn {
+    padding: 8px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form--radio__btn:nth-child(10) {
+    margin-right: 0;
+}
+.form--radio__btn .cdl_text {
+    margin-right: 10px;
+}
+.claims-form__article {
+    margin: 0 5px;
+}
+.claims-form__article > div {
+    padding: 0;
+    max-width: 376px !important;
+}
+.claims-form__article .input2 {
+
+}
+.modal--textarea {
+    padding: 0;
+    margin-bottom: 25px;
+}
+.form-textarea {
+    width: 100%;
+    height: 220px;
+    background: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px -2px rgba(24, 39, 75, 0.08);
+}
+.form-textarea:focus-within {
+    outline: 1px solid var(--oldBrandColorFocus);
+}
+.claims-form--row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.claims-form--row > div {
+    max-width: 400px;
+}
+.modal-container .date-input  path {
+ fill:  var(--oldBrandColor);
+}
+.modal-container .date-input .input {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100% !important;
+    height: 100%;
+}
+.modal-container .date-input {
+    margin-bottom: 25px;
+}
+.modal-container .input2 {
+    margin-bottom: 5px;
+}
+.modal-container .loc-input {
+    margin-top: 0;
+}
+
+.modal-container .calendar {
+    z-index: 1000000;
+    bottom: -100%;
+    padding: 30px !important;
+}
+
+.claims-btn--block {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #FEC107;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.claims-btn--block path {
+    stroke: var(--text);
+}
+.claims-btn--block p {
+    margin: 0 0 0 10px ;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.claims-form__checkbox {
+    margin-bottom: 35px;
+}
+.form-checkbox__txt {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.form-checkbox__txt span {
+    color: var(--oldBrandColorFocus);
+    cursor: pointer;
+}
+.claims-form .loc-text {
+    margin-bottom: 8px;
+}

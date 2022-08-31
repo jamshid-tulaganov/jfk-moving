@@ -1,0 +1,14 @@
+.policy-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 70px;
+}
+.policy-list__header {
+    font-size: 18px;
+}
+.policy-list__txt {
+    max-width: 100%;
+}
+.policy-list__txt span {
+    color: var(--oldBrandColor);
+}

@@ -1,0 +1,69 @@
+.piano-types {
+    padding: 70px 0;
+}
+.piano-types__heading {
+    margin-bottom: 70px;
+}
+.piano-types__heading h1 {
+    line-height: 60px;
+    font-family: 'Inter', sans-serif;
+}
+.piano-images >  .row {
+    max-width: 1010px;
+    margin: 0 auto 70px;
+    padding: 0;
+}
+.piano-column > div {
+    width: 268px;
+    height: 268px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 0.5px solid #DDDDDD;
+    box-shadow: 0px 4px 10px -2px rgba(24, 39, 75, 0.03), 5px 4px 10px -2px rgba(24, 39, 75, 0.05);
+    border-radius: 8px;
+}
+.piano-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.piano-column:nth-child(3) {
+    display: flex;
+    justify-content: end;
+}
+
+.piano-column > div > img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+} 
+
+.piano-brand__block > .row {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.piano-brand__column > div {
+    width: 192px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DDDDDD;
+}
+.piano-brand__column > div > img {
+    display: inline-block;
+    object-fit: contain;
+}
+.piano-brand__column > div > img:nth-child(2) {
+    width: 80px;
+    height: 80px;
+}
+.piano-brand__btn {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.piano-brand__btn button {
+   margin-top: 0;
+}

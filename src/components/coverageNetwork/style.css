@@ -1,0 +1,26 @@
+.coverage-network {
+    max-width: 91%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.network-heading {
+    margin-bottom: 70px;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    color: var(--oldBrandColor);
+}
+
+.network-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px ;
+    border: 1px solid #dddddd;
+}
+.network-box img {
+    display: inline-block;
+    object-fit: contain;
+}

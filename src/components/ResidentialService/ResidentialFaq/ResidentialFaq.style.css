@@ -1,0 +1,11 @@
+.residential-faq {
+  margin-bottom: 120px;
+}
+.residential-faq .headTxt {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.residential-faq__container {
+    max-width: 1105px;
+    margin: 0 auto 190px;
+}

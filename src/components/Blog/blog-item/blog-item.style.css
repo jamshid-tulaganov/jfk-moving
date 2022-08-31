@@ -1,0 +1,34 @@
+.blog-item__content img {
+    aspect-ratio: auto;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+.blog-item-header > h1 {
+    margin-bottom: 70px;
+}
+.shared-links {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shared-links h3 {
+    padding: 0;
+    margin: 0;
+}
+.shared-links > div {
+    justify-content: end;
+    margin-left: auto;
+}
+.shared-links path {
+    fill: var(--oldBrandColor);
+}
+.shared-links svg {
+    margin-left: 30px;
+}
+.shared-links a {
+    display: inline-block;
+    text-decoration: none;
+}

@@ -1,0 +1,83 @@
+.modal-backdrop.show {
+    opacity: 0.75 !important;
+}
+.modal-backdrop {
+    background-color: #758095 !important;
+}
+@media (min-width: 575px) {
+    .modal-dialog {
+        max-width:900px !important;
+    }
+}
+.mail--modal {
+    padding: 20px 20px;
+
+}
+.mail--modal .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail__mr {
+    max-width: 400px !important;
+    margin-right: 10px;
+    padding-top: 0 !important;
+}
+.mail--width {
+    max-width: 400px !important;
+    padding-left: 0;
+}
+
+#example-custom-modal-styling-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--oldBrandColor)
+}
+.modal-content {
+    border-radius: 8px;
+}
+.modal-content .loc-text {
+    margin-bottom: 8px;
+}
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 15px 25px 15px 35px;
+    position: relative;
+}
+.modal-header .btn-close {
+    padding: 0 !important;
+}
+.btn-close {
+    position: absolute;
+    right: 45px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    opacity: 1;
+    background: none;
+}
+.btn-close:active {
+    opacity: 0.8;
+    outline: none !important;
+    border: none;
+}
+.modal-btn__row {
+    height: 55px;
+    margin-bottom: 70px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-btn__row .col {
+    max-width: 400px;
+}
+
